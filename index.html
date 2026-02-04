@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalyani Rathod | Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary" href="#">Kalyani Rathod</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mt-5 pt-5">
+        <div class="row">
+            <!-- Left Column - Profile -->
+            <div class="col-lg-4 mb-4">
+                <div class="card profile-card shadow border-0">
+                    <div class="card-body text-center p-4">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b786d4d9?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" 
+                             alt="Profile" class="profile-img rounded-circle mb-3">
+                        <h3 class="fw-bold mb-1">Kalyani Rathod</h3>
+                        <p class="text-muted mb-3">Computer Science Student</p>
+                        
+                        <div class="contact-info text-start mb-4">
+                            <p><i class="fas fa-envelope text-primary me-2"></i> kalyanirathod09.09@gmail.com</p>
+                            <p><i class="fas fa-phone text-primary me-2"></i> 8767733902</p>
+                            <p><i class="fas fa-map-marker-alt text-primary me-2"></i> Pune, India</p>
+                        </div>
+                        
+                        <div class="social-links mb-4">
+                            <a href="https://github.com/kalyani0904" class="btn btn-outline-dark btn-sm me-2">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://linkedin.com/in/kalyani-rathod" class="btn btn-outline-primary btn-sm">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                        
+                        <a href="#contact" class="btn btn-primary w-100">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column - Tabs Content -->
+            <div class="col-lg-8">
+                <!-- Tabs Navigation -->
+                <ul class="nav nav-tabs mb-4" id="portfolioTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button">
+                            <i class="fas fa-home me-1"></i> Home
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="about-tab" data-bs-toggle="tab" data-bs-target="#about" type="button">
+                            <i class="fas fa-user me-1"></i> About
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="skills-tab" data-bs-toggle="tab" data-bs-target="#skills" type="button">
+                            <i class="fas fa-code me-1"></i> Skills
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="projects-tab" data-bs-toggle="tab" data-bs-target="#projects" type="button">
+                            <i class="fas fa-project-diagram me-1"></i> Projects
+                        </button>
+                    </li>
+                </ul>
+
+                <!-- Tabs Content -->
+                <div class="tab-content" id="portfolioTabContent">
+                    <!-- Home Tab -->
+                    <div class="tab-pane fade show active" id="home" role="tabpanel">
+                        <h2 class="mb-3">Welcome to My Portfolio</h2>
+                        <p class="lead">I'm a passionate Computer Science student with expertise in Full Stack Development and Machine Learning.</p>
+                        
+                        <div class="row mt-4">
+                            <div class="col-md-6 mb-3">
+                                <div class="card h-100 border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <h5><i class="fas fa-graduation-cap text-primary me-2"></i> Education</h5>
+                                        <p class="mb-1"><strong>VIT Pune</strong></p>
+                                        <p class="text-muted">B.E. Computer Science (Expected 2027)</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="card h-100 border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <h5><i class="fas fa-briefcase text-primary me-2"></i> Experience</h5>
+                                        <p class="mb-1"><strong>Tech Intern</strong></p>
+                                        <p class="text-muted">InfoTech Private Ltd, Pune</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- About Tab -->
+                    <div class="tab-pane fade" id="about" role="tabpanel">
+                        <h2 class="mb-3">About Me</h2>
+                        
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h5 class="mb-3">Education</h5>
+                                <div class="mb-4">
+                                    <h6>VIT Pune</h6>
+                                    <p class="text-muted">B.E. in Computer Science and Engineering<br>Expected June 2027</p>
+                                    <p><strong>Relevant Coursework:</strong> OOP, Databases, DSA, ML, OS, Networks</p>
+                                </div>
+                                
+                                <div>
+                                    <h6>Govt. Polytechnic Yavatmal</h6>
+                                    <p class="text-muted">Diploma in Civil Engineering<br>Sep 2021 - Jun 2024</p>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <h5 class="mb-3">Experience</h5>
+                                <div class="mb-4">
+                                    <h6>Tech Intern - InfoTech Pvt Ltd</h6>
+                                    <p class="text-muted">2023 - Dec 2023</p>
+                                    <ul class="small">
+                                        <li>Built dynamic web apps using HTML, CSS, JS, PHP</li>
+                                        <li>Used GitHub for version control</li>
+                                        <li>Implemented SEO strategies</li>
+                                    </ul>
+                                </div>
+                                
+                                <h5 class="mb-3">Certificates</h5>
+                                <ul class="small">
+                                    <li>AWS and Cloud Management - LinkedIn</li>
+                                    <li>Linux and System Management - Infosys Springboard</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skills Tab -->
+                    <div class="tab-pane fade" id="skills" role="tabpanel">
+                        <h2 class="mb-3">Technical Skills</h2>
+                        
+                        <h5 class="mt-4">Programming Languages</h5>
+                        <div class="row mb-4">
+                            <div class="col-6 col-md-4 mb-2">
+                                <div class="skill-item p-2 border rounded">
+                                    <i class="fab fa-java text-warning me-2"></i> Java
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 mb-2">
+                                <div class="skill-item p-2 border rounded">
+                                    <i class="fab fa-js-square text-warning me-2"></i> JavaScript
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 mb-2">
+                                <div class="skill-item p-2 border rounded">
+                                    <i class="fas fa-code text-info me-2"></i> C
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 mb-2">
+                                <div class="skill-item p-2 border rounded">
+                                    <i class="fas fa-database text-success me-2"></i> SQL
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 mb-2">
+                                <div class="skill-item p-2 border rounded">
+                                    <i class="fab fa-html5 text-danger me-2"></i> HTML/CSS
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 mb-2">
+                                <div class="skill-item p-2 border rounded">
+                                    <i class="fab fa-r-project text-primary me-2"></i> R
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <h5>Technologies & Tools</h5>
+                        <div class="row">
+                            <div class="col-6 col-md-3 mb-2">
+                                <span class="badge bg-primary">Node.js</span>
+                            </div>
+                            <div class="col-6 col-md-3 mb-2">
+                                <span class="badge bg-info">ReactJS</span>
+                            </div>
+                            <div class="col-6 col-md-3 mb-2">
+                                <span class="badge bg-warning">AWS</span>
+                            </div>
+                            <div class="col-6 col-md-3 mb-2">
+                                <span class="badge bg-secondary">Docker</span>
+                            </div>
+                            <div class="col-6 col-md-3 mb-2">
+                                <span class="badge bg-success">PowerBI</span>
+                            </div>
+                            <div class="col-6 col-md-3 mb-2">
+                                <span class="badge bg-danger">Git/GitHub</span>
+                            </div>
+                            <div class="col-6 col-md-3 mb-2">
+                                <span class="badge bg-dark">ExpressJS</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projects Tab -->
+                    <div class="tab-pane fade" id="projects" role="tabpanel">
+                        <h2 class="mb-3">Projects</h2>
+                        
+                        <div class="row">
+                            <!-- Project 1 -->
+                            <div class="col-md-6 mb-4">
+                                <div class="card h-100 border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Indoor Navigation for Visually Impaired</h5>
+                                        <p class="card-text">Developed an indoor navigation system using IoT sensors, RFID, and Bluetooth beacons to assist visually impaired individuals.</p>
+                                        <div class="mb-3">
+                                            <span class="badge bg-primary">IoT</span>
+                                            <span class="badge bg-secondary">RFID</span>
+                                            <span class="badge bg-info">Bluetooth</span>
+                                        </div>
+                                        <p><strong>Features:</strong> Audio directions, obstacle detection, voice commands, haptic feedback</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Project 2 -->
+                            <div class="col-md-6 mb-4">
+                                <div class="card h-100 border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Automated Loan Approval System</h5>
+                                        <p class="card-text">Created a machine learning system to evaluate loan applications based on credit score, income, and repayment history.</p>
+                                        <div class="mb-3">
+                                            <span class="badge bg-primary">Machine Learning</span>
+                                            <span class="badge bg-secondary">Python</span>
+                                            <span class="badge bg-success">Flask</span>
+                                        </div>
+                                        <p><strong>Features:</strong> Reduces processing time, minimizes bias, instant feedback</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Contact Section -->
+                        <div id="contact" class="mt-5 pt-4">
+                            <h2 class="mb-3">Contact Me</h2>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="card border-0 shadow-sm">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Get in Touch</h5>
+                                            <form id="contactForm">
+                                                <div class="mb-3">
+                                                    <label for="name" class="form-label">Name</label>
+                                                    <input type="text" class="form-control" id="name" required>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="email" class="form-label">Email</label>
+                                                    <input type="email" class="form-control" id="email" required>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="message" class="form-label">Message</label>
+                                                    <textarea class="form-control" id="message" rows="3" required></textarea>
+                                                </div>
+                                                <button type="submit" class="btn btn-primary">Send Message</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card border-0 shadow-sm h-100">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Contact Information</h5>
+                                            <p><i class="fas fa-envelope text-primary me-2"></i> kalyanirathod09.09@gmail.com</p>
+                                            <p><i class="fas fa-phone text-primary me-2"></i> 8767733902</p>
+                                            <p><i class="fas fa-map-marker-alt text-primary me-2"></i> Pune, India</p>
+                                            
+                                            <div class="mt-4">
+                                                <h6>Connect with me:</h6>
+                                                <div>
+                                                    <a href="https://github.com/kalyani0904" class="btn btn-outline-dark btn-sm me-2">
+                                                        <i class="fab fa-github"></i> GitHub
+                                                    </a>
+                                                    <a href="https://linkedin.com/in/kalyani-rathod" class="btn btn-outline-primary btn-sm">
+                                                        <i class="fab fa-linkedin"></i> LinkedIn
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-2">© 2023 Kalyani Rathod. All rights reserved.</p>
+            <p class="text-muted small">Computer Science Student | Full Stack Developer</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
